@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Cervotec Solutions | IT, Branding, SaaS & Development</title>
-  <meta name="description" content="Cervotec Solutions delivers expert IT consultation, graphic design, branding identity, and SaaS development. Future-ready digital solutions for your business.">
+  <meta name="description" content="Cervotec Solutions delivers expert IT consultation, graphic design, branding identity, and SaaS development. Future-ready digital solutions for your business in Malaysia.">
   <meta name="keywords" content="IT consultation, graphic design, branding identity, SaaS provider, software development, Malaysia, digital transformation">
   <meta name="author" content="Cervotec Solutions">
   <meta name="robots" content="index, follow">
@@ -13,15 +13,13 @@
   <meta property="og:description" content="Modern IT consultation, creative branding, and scalable software solutions. Elevate your business with Cervotec.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://cervotecsolutions.my">
-  <meta property="og:image" content="https://cervotecsolutions.my/og-image.jpg"> <!-- placeholder, can be replaced -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#0B1120">
+  <meta name="theme-color" content="#FFF7ED">
   
   <!-- Preconnect & Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
-  <!-- Font Awesome 6 (free) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * {
@@ -32,23 +30,21 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background-color: #0A0C12;
-      background-image: radial-gradient(circle at 25% 0%, rgba(67, 56, 202, 0.08) 0%, rgba(0, 0, 0, 0) 50%),
-                        radial-gradient(circle at 75% 100%, rgba(139, 92, 246, 0.08) 0%, rgba(0, 0, 0, 0) 60%);
-      color: #EFF3F8;
+      background: linear-gradient(145deg, #FFFBF5 0%, #FFF5E6 100%);
+      color: #1E1B1A;
       line-height: 1.5;
       scroll-behavior: smooth;
     }
 
-    /* Glassmorphism & modern scrollbar */
+    /* Modern light scrollbar */
     ::-webkit-scrollbar {
       width: 8px;
     }
     ::-webkit-scrollbar-track {
-      background: #111827;
+      background: #FCEAD8;
     }
     ::-webkit-scrollbar-thumb {
-      background: #4F46E5;
+      background: linear-gradient(135deg, #FF9D00, #F44646);
       border-radius: 20px;
     }
 
@@ -58,7 +54,7 @@
       padding: 0 2rem;
     }
 
-    /* Navigation */
+    /* Navigation - light style */
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -70,7 +66,7 @@
     .logo {
       font-size: 1.8rem;
       font-weight: 800;
-      background: linear-gradient(135deg, #C084FC, #3B82F6);
+      background: linear-gradient(135deg, #FF9D00, #F44646);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
@@ -82,27 +78,27 @@
       align-items: center;
     }
     .nav-links a {
-      color: #E2E8F0;
+      color: #3A2C28;
       text-decoration: none;
       font-weight: 500;
       transition: 0.2s ease;
       font-size: 1rem;
     }
     .nav-links a:hover {
-      color: #A78BFA;
+      color: #F44646;
     }
     .hamburger {
       display: none;
       font-size: 1.8rem;
       cursor: pointer;
-      color: #E2E8F0;
       background: none;
       border: none;
+      color: #3A2C28;
     }
 
-    /* Buttons & elements */
+    /* Buttons with new gradient */
     .btn-primary {
-      background: linear-gradient(95deg, #6D28D9, #3B82F6);
+      background: linear-gradient(95deg, #FF9D00, #F44646);
       border: none;
       padding: 0.8rem 1.8rem;
       border-radius: 40px;
@@ -110,35 +106,39 @@
       color: white;
       cursor: pointer;
       transition: all 0.3s ease;
-      box-shadow: 0 8px 20px -8px rgba(59,130,246,0.4);
+      box-shadow: 0 8px 20px -8px rgba(244, 70, 70, 0.4);
       text-decoration: none;
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 0.95rem;
+      max-width: fit-content;
+      align-self: center;
     }
     .btn-primary:hover {
       transform: translateY(-3px);
-      box-shadow: 0 15px 30px -10px #3B82F6;
-      background: linear-gradient(95deg, #7C3AED, #2563EB);
+      box-shadow: 0 15px 30px -10px #F44646;
+      background: linear-gradient(95deg, #FFB42E, #FF5A5A);
     }
     .btn-outline {
       background: transparent;
-      border: 1.5px solid rgba(139, 92, 246, 0.6);
+      border: 1.5px solid #FF9D00;
       padding: 0.8rem 1.8rem;
       border-radius: 40px;
       font-weight: 600;
-      color: #DDD6FE;
+      color: #F44646;
       cursor: pointer;
       transition: 0.3s;
       display: inline-block;
       text-decoration: none;
     }
     .btn-outline:hover {
-      background: rgba(139, 92, 246, 0.15);
-      border-color: #A78BFA;
-      color: white;
+      background: rgba(255, 157, 0, 0.1);
+      border-color: #F44646;
+      color: #D43F1F;
     }
 
-    /* Hero section */
+    /* Hero Section - light */
     .hero {
       padding: 4rem 0 5rem 0;
       display: flex;
@@ -152,23 +152,22 @@
       min-width: 280px;
     }
     .hero-badge {
-      background: rgba(79, 70, 229, 0.2);
-      backdrop-filter: blur(4px);
+      background: rgba(255, 157, 0, 0.12);
       display: inline-block;
       padding: 0.3rem 1rem;
       border-radius: 40px;
       font-size: 0.8rem;
       font-weight: 500;
-      color: #A78BFA;
+      color: #E65C1E;
       margin-bottom: 1.5rem;
-      border: 1px solid rgba(139,92,246,0.3);
+      border: 1px solid rgba(255, 157, 0, 0.3);
     }
     .hero-content h1 {
       font-size: 3.6rem;
       font-weight: 800;
       line-height: 1.2;
       letter-spacing: -0.02em;
-      background: linear-gradient(to right, #F0F9FF, #C4B5FD);
+      background: linear-gradient(to right, #C2410C, #FF9D00, #F44646);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
@@ -176,7 +175,7 @@
     }
     .hero-content p {
       font-size: 1.2rem;
-      color: #CBD5E1;
+      color: #5A4A42;
       margin-bottom: 2rem;
       max-width: 90%;
     }
@@ -187,25 +186,32 @@
     }
     .hero-visual {
       flex: 0.8;
-      background: rgba(15, 23, 42, 0.5);
-      backdrop-filter: blur(10px);
+      background: rgba(255, 245, 235, 0.9);
+      backdrop-filter: blur(0px);
       border-radius: 32px;
       padding: 2rem;
-      border: 1px solid rgba(79, 70, 229, 0.3);
+      border: 1px solid #FFD7B5;
       text-align: center;
-      box-shadow: 0 25px 40px -12px rgba(0,0,0,0.4);
+      box-shadow: 0 20px 35px -12px rgba(0,0,0,0.08);
     }
     .hero-visual i {
       font-size: 4rem;
-      color: #818CF8;
+      background: linear-gradient(145deg, #FF9D00, #F44646);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
       margin-bottom: 1rem;
     }
     .hero-visual h3 {
       font-size: 1.6rem;
       font-weight: 600;
+      color: #3A2C28;
+    }
+    .hero-visual p {
+      color: #7A5A4A;
     }
 
-    /* Section styling */
+    /* Section titles */
     section {
       padding: 5rem 0;
     }
@@ -215,38 +221,38 @@
       font-weight: 700;
       margin-bottom: 1rem;
       letter-spacing: -0.01em;
+      color: #2B221F;
     }
     .section-sub {
       text-align: center;
-      color: #94A3B8;
+      color: #6F4E3A;
       max-width: 650px;
       margin: 0 auto 3rem auto;
     }
 
-    /* Services Grid */
+    /* Services Grid - Light cards */
     .services-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
     }
     .service-card {
-      background: rgba(18, 24, 38, 0.6);
-      backdrop-filter: blur(8px);
+      background: #FFFFFF;
       border-radius: 28px;
       padding: 2rem 1.8rem;
       transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
-      border: 1px solid rgba(79, 70, 229, 0.2);
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+      border: 1px solid #FFE2C6;
+      box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.05);
     }
     .service-card:hover {
       transform: translateY(-8px);
-      border-color: rgba(139, 92, 246, 0.6);
-      background: rgba(25, 32, 53, 0.8);
-      box-shadow: 0 20px 35px -12px #2E1065;
+      border-color: #FF9D00;
+      box-shadow: 0 20px 30px -12px rgba(244, 70, 70, 0.2);
+      background: #FFFCF9;
     }
     .service-icon {
       font-size: 2.5rem;
-      background: linear-gradient(145deg, #6D28D9, #3B82F6);
+      background: linear-gradient(145deg, #FF9D00, #F44646);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
@@ -256,13 +262,14 @@
       font-size: 1.6rem;
       font-weight: 600;
       margin-bottom: 0.75rem;
+      color: #2D2A27;
     }
     .service-card p {
-      color: #B9C7D9;
+      color: #5F4D42;
       line-height: 1.5;
     }
 
-    /* Why Choose Us */
+    /* Why Choose Us - Light features */
     .features-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -273,13 +280,14 @@
       text-align: center;
       padding: 1.5rem;
       border-radius: 24px;
-      background: rgba(10, 14, 23, 0.7);
-      backdrop-filter: blur(4px);
+      background: #FFFFFF;
+      border: 1px solid #FFE2C6;
       transition: 0.2s;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.02);
     }
     .feature-item i {
       font-size: 2.2rem;
-      background: linear-gradient(135deg, #C084FC, #3B82F6);
+      background: linear-gradient(135deg, #FF9D00, #F44646);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
@@ -288,16 +296,26 @@
     .feature-item h4 {
       font-size: 1.3rem;
       margin-bottom: 0.5rem;
+      color: #3A2C28;
+    }
+    .feature-item p {
+      color: #6F4E3A;
     }
 
-    /* CTA + Contact */
+    /* CTA + Contact (light, no phone) */
     .contact-section {
-      background: linear-gradient(120deg, rgba(37, 39, 77, 0.3), rgba(20, 24, 54, 0.5));
+      background: linear-gradient(125deg, #FFF3E8, #FFE7D6);
       border-radius: 48px;
       padding: 3rem 2rem;
       text-align: center;
-      backdrop-filter: blur(4px);
-      border: 1px solid rgba(79, 70, 229, 0.3);
+      border: 1px solid #FFD7B5;
+      box-shadow: 0 15px 30px -12px rgba(0,0,0,0.05);
+    }
+    .contact-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
     }
     .contact-flex {
       display: flex;
@@ -310,41 +328,43 @@
       display: flex;
       align-items: center;
       gap: 0.8rem;
-      background: rgba(0,0,0,0.3);
+      background: rgba(255,255,240,0.8);
       padding: 0.8rem 1.8rem;
       border-radius: 60px;
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(2px);
+      border: 1px solid #FFCFA5;
     }
     .contact-item i {
       font-size: 1.4rem;
-      color: #818CF8;
+      color: #F44646;
     }
-    .contact-item a {
-      color: #E2E8F0;
+    .contact-item a, .contact-item span {
+      color: #3A2C28;
       text-decoration: none;
       font-weight: 500;
     }
 
     /* Footer */
     footer {
-      border-top: 1px solid rgba(79, 70, 229, 0.2);
+      border-top: 1px solid #FFD7B5;
       padding: 2rem 0;
       text-align: center;
-      color: #94A3B8;
+      color: #7A5A4A;
+      background: #FFFBF5;
     }
     .social-icons a {
-      color: #94A3B8;
+      color: #B37B48;
       font-size: 1.3rem;
       margin: 0 0.75rem;
       transition: 0.2s;
       display: inline-block;
     }
     .social-icons a:hover {
-      color: #C084FC;
+      color: #F44646;
       transform: translateY(-2px);
     }
 
-    /* Animations */
+    /* Fade animations */
     .fade-up {
       opacity: 0;
       transform: translateY(35px);
@@ -355,7 +375,7 @@
       transform: translateY(0);
     }
 
-    /* Mobile responsive */
+    /* Responsive */
     @media (max-width: 880px) {
       .container {
         padding: 0 1.5rem;
@@ -374,12 +394,13 @@
         width: 100%;
         flex-direction: column;
         gap: 1.2rem;
-        background: rgba(10, 14, 23, 0.95);
-        backdrop-filter: blur(20px);
+        background: #FFFCF8;
+        backdrop-filter: blur(0px);
         padding: 1.8rem;
         border-radius: 28px;
         margin-top: 1rem;
-        border: 1px solid rgba(79,70,229,0.3);
+        border: 1px solid #FFDAB5;
+        box-shadow: 0 12px 20px rgba(0,0,0,0.05);
       }
       .nav-links.active {
         display: flex;
@@ -420,7 +441,9 @@
 <header>
   <div class="container">
     <div class="navbar">
-      <div class="logo">CERVOTEC</div>
+      <a href="#home" class="logo" style="display:inline-block;">
+        <img src="./logo.svg" alt="Cervotec Solutions Logo" style="height:2.3rem; width:auto; vertical-align:middle;">
+      </a>
       <button class="hamburger" id="hamburgerBtn" aria-label="Menu"><i class="fas fa-bars"></i></button>
       <div class="nav-links" id="navLinks">
         <a href="#home">Home</a>
@@ -442,23 +465,18 @@
           <h1>Innovate. Design. Scale.<br>Your digital edge starts here.</h1>
           <p>Empower your business with expert IT consultation, creative branding, graphic design, and world‑class SaaS development. Future-ready, human-centric.</p>
           <div class="hero-actions">
-            <a href="#services" class="btn-primary">Explore Services <i class="fas fa-arrow-right"></i></a>
+            <a href="#services" class="btn-primary">Explore Services &nbsp; <i class="fas fa-arrow-right"></i></a>
             <a href="#contact" class="btn-outline">Get in touch</a>
           </div>
         </div>
         <div class="hero-visual fade-up">
-          <i class="fas fa-chalkboard-user"></i>
-          <h3>Malaysia's Trusted Partner</h3>
-          <p style="margin-top: 0.8rem; color:#A5B4FC;">IT • Design • SaaS</p>
-          <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 1rem;">
-            <i class="fas fa-code"></i> <i class="fas fa-palette"></i> <i class="fas fa-cloud-arrow-up"></i>
-          </div>
+         <img src="./hero-visual.png" alt="Cervotec Solutions Hero Visual" style="width:100%; height:auto; border-radius:24px;">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Section (4 core services as per client) -->
+  <!-- Services Section (4 core services) -->
   <section id="services">
     <div class="container">
       <h2 class="section-title fade-up">What we deliver</h2>
@@ -492,7 +510,7 @@
     </div>
   </section>
 
-  <!-- Why Choose Us + value -->
+  <!-- Why Choose Us -->
   <section id="whyus">
     <div class="container">
       <h2 class="section-title fade-up">Why Cervotec?</h2>
@@ -506,18 +524,19 @@
     </div>
   </section>
 
-  <!-- Contact & CTA Section -->
+  <!-- Contact & CTA Section (Phone number removed) -->
   <section id="contact">
     <div class="container">
       <div class="contact-section fade-up">
         <h2 style="font-size: 2rem; margin-bottom: 0.5rem;">Let’s bring ideas to life</h2>
-        <p style="color:#CBD5E1; max-width: 550px; margin: 0 auto;">Ready to transform your digital presence? Reach out for a free consultation.</p>
+        <p style="color:#6F4E3A; max-width: 550px; margin: 0 auto;">Ready to transform your digital presence? Reach out for a free consultation.</p>
         <div class="contact-flex">
           <div class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:hello@cervotecsolutions.my">hello@cervotecsolutions.my</a></div>
-          <div class="contact-item"><i class="fas fa-phone-alt"></i> <a href="tel:+60312345678">+60 3 1234 5678</a></div>
           <div class="contact-item"><i class="fas fa-map-marker-alt"></i> <span>Kuala Lumpur, Malaysia</span></div>
         </div>
-        <a href="mailto:hello@cervotecsolutions.my" class="btn-primary" style="margin-top: 1rem;">Start a conversation <i class="fas fa-arrow-right"></i></a>
+        <div class="contact-button">
+          <a href="mailto:hello@cervotecsolutions.my" class="btn-primary" style="margin-top: 1rem;">Start a conversation &nbsp; <i class="fas fa-arrow-right"></i></a>
+        </div>
       </div>
     </div>
   </section>
@@ -531,12 +550,12 @@
       <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
       <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
     </div>
-    <p style="margin-top: 1.5rem;">© 2025 Cervotec Solutions. All rights reserved. Innovation-driven for tomorrow’s business.</p>
+    <p style="margin-top: 1.5rem;">© 2026 Cervotec Solutions. All rights reserved. Innovation-driven for tomorrow’s business.</p>
     <p style="font-size: 0.8rem; margin-top: 0.8rem;">IT Consultation | Graphic Design | Branding Identity | SaaS & Development</p>
   </div>
 </footer>
 
-<!-- Schema.org structured data (LocalBusiness) for SEO -->
+<!-- Schema.org structured data for SEO (updated with local business) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -544,7 +563,6 @@
   "name": "Cervotec Solutions",
   "url": "https://cervotecsolutions.my",
   "logo": "https://cervotecsolutions.my/logo.png",
-  "image": "https://cervotecsolutions.my/og-image.jpg",
   "description": "Cervotec Solutions provides IT consultation, graphic design, branding identity consultation, and SaaS software development services in Malaysia.",
   "address": {
     "@type": "PostalAddress",
@@ -553,7 +571,7 @@
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "email": "admin@cervotecsolutions.my",
+    "email": "hello@cervotecsolutions.my",
     "contactType": "customer service"
   },
   "sameAs": [
@@ -565,7 +583,7 @@
 </script>
 
 <script>
-  // Intersection Observer for fade-up animation
+  // Intersection Observer for fade-up animations
   const fadeElements = document.querySelectorAll('.fade-up');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -584,7 +602,6 @@
     hamburger.addEventListener('click', (e) => {
       e.stopPropagation();
       navLinks.classList.toggle('active');
-      // change icon for better UX
       const icon = hamburger.querySelector('i');
       if (navLinks.classList.contains('active')) {
         icon.classList.remove('fa-bars');
@@ -596,7 +613,7 @@
     });
   }
 
-  // Close mobile menu when a nav link is clicked (smooth navigation)
+  // Close mobile menu when nav link clicked
   document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
       if (navLinks.classList.contains('active')) {
@@ -610,7 +627,7 @@
     });
   });
 
-  // Smooth scroll for anchor links (prevent default jump)
+  // Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       const targetId = this.getAttribute('href');
@@ -623,7 +640,7 @@
     });
   });
 
-  // add slight delay for visibility of first elements on load
+  // Initial visible check on load
   window.addEventListener('load', () => {
     document.querySelectorAll('.fade-up').forEach(el => {
       if (el.getBoundingClientRect().top < window.innerHeight - 100) {
